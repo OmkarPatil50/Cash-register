@@ -42,6 +42,7 @@ function hideMessage(){
 function errorHandler(messageError) {
     errorMsg.style.display= "block";
     errorMsg.innerText = messageError;
+    notesNumber[i].innerText="-"
    
 }
 
