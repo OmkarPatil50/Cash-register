@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Secular+One&family=Zilla+Slab&display=swap');
+
+:root{
+    --primary-color:#facc15;
+    
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--primary-color);
+}
+
+.container{
+    display: block;
+    max-width: 800px;
+   margin: auto;
+}
+
+.mainHeader{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding: 2rem;
+   border: black solid ;
+   border-radius: 1rem;
+}
+
+.content{
+    border: black solid;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.explaination{
+    text-align: center;
+    padding: 1rem;
+ font-weight: bold;
+}
+
+.sub-head{
+    padding: 1rem;
+    font-weight: bold;
+    font-size: x-large;
+   
+}
+
+.box{
+ padding: 1rem;   
+ font-size: x-large;
+ font-weight: bold;
+ text-align: center;
+}
+
+.button{
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+.table{
+    margin: 0;
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+.table th, td{
+    padding: 0.4rem;
+    border-collapse: collapse;
+    border: solid --primary-color;
+    font-weight: bold;
+    background-color: white;
+    
+}
+
+
+.error-msg{
+    font-weight: bold;
+    color: red;
+    font-size: larger;
+}
+
+
+.primary-link{
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    border:solid black;
+    text-decoration: none;
+    color: black;
+}
