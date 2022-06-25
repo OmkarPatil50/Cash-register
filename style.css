@@ -73,6 +73,7 @@ body{
     font-weight: bold;
     background-color: white;
     
+    
 }
 
 
@@ -80,7 +81,10 @@ body{
     font-weight: bold;
     color: red;
     font-size: larger;
+ padding: 2rem 0rem 0rem 0rem;
+   
 }
+
 
 
 .primary-link{
@@ -91,4 +95,7 @@ body{
     border:solid black;
     text-decoration: none;
     color: black;
+    cursor: pointer;
+
 }
+

@@ -12,6 +12,7 @@
       <header class="mainHeader">Cash Register Manager</header>
       <br />
       <div class="content">
+        <div class="collap">
         <p class="explaination">
           Enter the bill amount and cash given by the customer and know minimum
           number of notes to return
@@ -21,10 +22,63 @@
         <br /><br />
         <input type="text" id="Bill-amount" class="box" />
         <br /><br /><br />
-      <a class="primary-link" href="/next.html">Next</a>
-      <br><br><br>
 
+        <label for="Cash-given" class="sub-head">Cash Given:</label><br /><br />
+        <input type="text" id="Cash-given" class="box" />
+        <br /><br /><br />
+        <a class="primary-link" id="btn-check">Check</a>
+
+        <p id="error-message" class="error-msg"></p>
+        </div>
       
+
+      <table class="table">
+        <caption class="sub-head">
+          Return Change
+        </caption>
+        <br /><br /><br />
+
+        <tr>
+          <th>Denomination</th>
+          <th>No. of Notes / Coins</th>
+        </tr>
+
+        <tr>
+          <td>2000</td>
+          <td class="noOfNotes"></td>
+        </tr>
+        <tr>
+          <td>500</td>
+          <td class="noOfNotes"></td>
+        </tr>
+
+        <tr>
+          <td>100</td>
+          <td class="noOfNotes"></td>
+        </tr>
+        <tr>
+          <td>50</td>
+          <td class="noOfNotes"></td>
+        </tr>
+        <tr>
+          <td>20</td>
+          <td class="noOfNotes"></td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td class="noOfNotes"></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td class="noOfNotes"></td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td class="noOfNotes"></td>
+        </tr>
+      </table>
+     
+    </div>
     </main>
   </body>
 
